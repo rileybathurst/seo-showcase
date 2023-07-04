@@ -4,7 +4,7 @@ interface SEOShowcase {
   test: string;
 }
 
-function SEOShowcase(props: SEOShowcase) {
+export function SEOShowcase(props: SEOShowcase) {
   console.log('🍳');
 
   return (
@@ -13,5 +13,3 @@ function SEOShowcase(props: SEOShowcase) {
     </>
   )
 }
-
-export default SEOShowcase
