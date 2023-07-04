@@ -1,6 +1,6 @@
 {
   "name": "seo-showcase",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "A visual SEO showcase",
   "source": "src/index.tsx",
   "main": "dist/index.js",
@@ -24,11 +24,20 @@
   },
   "homepage": "https://github.com/rileybathurst/seo-showcase#readme",
   "dependencies": {
+    "dotenv": "^16.3.1",
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@parcel/packager-ts": "^2.9.3",
+    "@parcel/transformer-typescript-types": "^2.9.3",
     "@types/node": "^20.3.3",
     "parcel": "^2.9.3",
-    "process": "^0.11.10"
+    "process": "^0.11.10",
+    "typescript": "^5.1.6"
+  },
+  "@parcel/transformer-css": {
+    "drafts": {
+      "nesting": true
+    }
   }
 }

@@ -48,11 +48,11 @@
     background-color: #ff4136;
   }
 
-  img {
+  & img {
     max-width: 10rem;
   }
 
-  h1 {
+  & h1 {
     font-size: 2rem;
     margin: 0;
   }
