@@ -1,6 +1,10 @@
 import * as React from "react"
 
-function SEOShowcase(props) {
+interface SEOShowcase {
+  test: string;
+}
+
+function SEOShowcase(props: SEOShowcase) {
   console.log('🍳');
 
   return (
