@@ -1,0 +1,59 @@
+/*------------------*/
+/*  # Seo Showcase  */
+/*------------------*/
+
+/* this is only for showing internally */
+/* colors come from https://clrs.cc/ */
+
+:root {
+  --border-radius: 0.25rem;
+}
+
+.seo-showcase {
+  background-color: hsla(197, 100%, 75%, 25%); /* #aqua */
+  border: 1px solid hsla(208, 100%, 43%, 50%); /* #blue */
+  border-radius: 0.25rem;
+  margin: 1rem;
+  padding: 1rem;
+  line-height: 1.75;
+
+  .key,
+  .green,
+  .yellow,
+  .red {
+    padding: 0.5rem 1rem;
+    border-radius: var(--border-radius);
+  }
+
+  .key {
+    background-color: hsla(0, 0%, 83%, 50%);
+    border: 1px solid hsla(0, 0%, 83%, 100%);
+
+    @media (prefers-color-scheme: dark) {
+      background-color: midnightblue;
+    }
+  }
+
+  .good {
+    background-color: hsla(127, 63%, 49%, 50%);
+    border: 1px solid hsla(127, 63%, 49%, 100%);
+  }
+
+  .ok {
+    background-color: hsla(52, 100%, 50%, 50%);
+    border: 1px solid hsla(52, 100%, 50%, 100%);
+  }
+
+  .bad {
+    background-color: #ff4136;
+  }
+
+  img {
+    max-width: 10rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+    margin: 0;
+  }
+}

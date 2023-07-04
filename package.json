@@ -1,6 +1,6 @@
 {
   "name": "seo-showcase",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A visual SEO showcase",
   "source": "src/index.tsx",
   "main": "dist/index.js",
@@ -27,6 +27,7 @@
     "react": "^18.2.0"
   },
   "devDependencies": {
+    "@types/node": "^20.3.3",
     "parcel": "^2.9.3",
     "process": "^0.11.10"
   }
