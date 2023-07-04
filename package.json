@@ -1,0 +1,25 @@
+{
+  "name": "seo-showcase",
+  "version": "1.0.0",
+  "description": "A visual SEO showcase",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rileybathurst/seo-showcase.git"
+  },
+  "keywords": [
+    "seo"
+  ],
+  "author": "Riley Bathurst",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rileybathurst/seo-showcase/issues"
+  },
+  "homepage": "https://github.com/rileybathurst/seo-showcase#readme",
+  "dependencies": {
+    "react": "^18.2.0"
+  }
+}
